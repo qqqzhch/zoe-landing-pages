@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Transparency Graph - BR-ACC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🌐</span>
+                    <span class="logo-text">BR-ACC</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">功能</a>
+                    <a href="#scenarios">场景</a>
+                    <a href="#partners">合作</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <a href="https://github.com/World-Open-Graph/br-acc" class="btn btn-primary" target="_blank">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        World Transparency Graph
+                    </h1>
+                    <p class="hero-subtitle">
+                        构建全球透明度图谱，让数据关系可视化
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://bracc.org" class="btn btn-primary btn-large" target="_blank">
+                            访问官网
+                        </a>
+                        <a href="https://github.com/World-Open-Graph/br-acc" class="btn btn-outline btn-large" target="_blank">
+                            查看源码
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">737</span>
+                            <span class="stat-label">Stars</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">165</span>
+                            <span class="stat-label">Forks</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">AGPL</span>
+                            <span class="stat-label">License</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="graph-preview">
+                        <div class="graph-node node-1"></div>
+                        <div class="graph-node node-2"></div>
+                        <div class="graph-node node-3"></div>
+                        <div class="graph-node node-4"></div>
+                        <div class="graph-node node-5"></div>
+                        <svg class="graph-edges">
+                            <line x1="50%" y1="30%" x2="25%" y2="50%" />
+                            <line x1="50%" y1="30%" x2="75%" y2="50%" />
+                            <line x1="25%" y1="50%" x2="25%" y2="80%" />
+                            <line x1="75%" y1="50%" x2="75%" y2="80%" />
+                            <line x1="50%" y1="30%" x2="50%" y2="70%" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="section-header">
+                <h2>让世界更透明</h2>
+                <p>通过技术手段，构建可信赖的透明度评估体系</p>
+            </div>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">🏛️</div>
+                    <h3>政府透明度</h3>
+                    <p>政府采购、政策影响、官员关系可视化</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🏢</div>
+                    <h3>企业透明度</h3>
+                    <p>股权结构、供应链、高管网络分析</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">🔍</div>
+                    <h3>数据关联</h3>
+                    <p>打破信息孤岛，建立数据关联网络</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>核心功能</h2>
+                <p>强大的图谱分析能力</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>图谱可视化</h3>
+                    <p>交互式网络图，多种布局算法</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>实体分析</h3>
+                    <p>实体查询、关系发现、社区检测</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>透明度评估</h3>
+                    <p>多维度指标，量化评分</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>数据集成</h3>
+                    <p>多源数据接入，API 接口</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>权限控制</h3>
+                    <p>细粒度访问控制</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>高性能</h3>
+                    <p>支持百万级节点</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scenarios Section -->
+    <section id="scenarios" class="scenarios">
+        <div class="container">
+            <div class="section-header">
+                <h2>应用场景</h2>
+            </div>
+            <div class="scenario-tabs">
+                <button class="scenario-tab active" data-tab="gov">政府透明度</button>
+                <button class="scenario-tab" data-tab="corp">企业透明度</button>
+                <button class="scenario-tab" data-tab="research">学术研究</button>
+            </div>
+            <div class="scenario-content">
+                <div class="scenario-item active" id="gov">
+                    <h3>政府透明度应用</h3>
+                    <ul>
+                        <li>🏛️ 采购供应商关系图谱</li>
+                        <li>📊 政策利益相关方分析</li>
+                        <li>🔍 官员社交网络透明化</li>
+                    </ul>
+                </div>
+                <div class="scenario-item" id="corp">
+                    <h3>企业透明度应用</h3>
+                    <ul>
+                        <li>🏢 股权结构可视化</li>
+                        <li>🤝 供应链上下游追踪</li>
+                        <li>💼 高管职业路径分析</li>
+                    </ul>
+                </div>
+                <div class="scenario-item" id="research">
+                    <h3>学术研究应用</h3>
+                    <ul>
+                        <li>🎓 学术合作网络</li>
+                        <li>📚 知识图谱构建</li>
+                        <li>🔬 研究影响分析</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>合作伙伴</h2>
+                <p>携手共建透明未来</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-category">
+                    <h3>🏛️ 政府机构</h3>
+                    <p>透明度委员会、审计部门、反腐败机构</p>
+                </div>
+                <div class="partner-category">
+                    <h3>🏢 企业客户</h3>
+                    <p>风险管理咨询、投资机构、尽职调查公司</p>
+                </div>
+                <div class="partner-category">
+                    <h3>🎓 学术合作</h3>
+                    <p>研究机构、图书馆、数据科学实验室</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2>技术栈</h2>
+                <p>现代技术架构，确保高性能和可扩展性</p>
+            </div>
+            <div class="tech-items">
+                <span class="tech-item">Python</span>
+                <span class="tech-item">FastAPI</span>
+                <span class="tech-item">Neo4j</span>
+                <span class="tech-item">D3.js</span>
+                <span class="tech-item">Docker</span>
+                <span class="tech-item">Kubernetes</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>加入我们的使命</h2>
+                <p>让世界更透明，让数据更有价值</p>
+                <div class="cta-actions">
+                    <a href="https://github.com/World-Open-Graph/br-acc" class="btn btn-primary btn-large" target="_blank">
+                        在 GitHub 上 Star 我们
+                    </a>
+                    <a href="mailto:contact@bracc.org" class="btn btn-outline btn-large">
+                        联系合作
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🌐</span>
+                        <span class="logo-text">BR-ACC</span>
+                    </div>
+                    <p>World Transparency Graph</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>产品</h4>
+                        <a href="#features">功能</a>
+                        <a href="#scenarios">应用场景</a>
+                        <a href="https://bracc.org">官网</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>开源</h4>
+                        <a href="https://github.com/World-Open-Graph/br-acc">GitHub</a>
+                        <a href="https://github.com/World-Open-Graph/br-acc/blob/main/LICENSE">License</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>联系</h4>
+                        <a href="mailto:contact@bracc.org">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 World Open Graph. AGPL-3.0 License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab switching
+        const tabs = document.querySelectorAll('.scenario-tab');
+        const items = document.querySelectorAll('.scenario-item');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                items.forEach(i => i.classList.remove('active'));
+
+                tab.classList.add('active');
+                const targetId = tab.getAttribute('data-tab');
+                document.getElementById(targetId).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
