@@ -3,153 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>build-your-own-x - 开源项目商业潜力分析</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Build Your Own X - 开发者学习路径规划工具</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">build-your-own-x</div>
-            <ul>
-                <li><a href="#features">功能特点</a></li>
-                <li><a href="#business">商业分析</a></li>
-                <li><a href="#pricing">定价</a></li>
-                <li><a href="#contact">联系我们</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Build Your Own X</div>
+            <div class="nav-links">
+                <a href="#features">功能</a>
+                <a href="#pricing">定价</a>
+                <a href="#contact">联系我们</a>
+            </div>
+            <button class="btn btn-primary">开始使用</button>
+        </div>
+    </nav>
 
+    <!-- Hero 区域 -->
     <section class="hero">
-        <h1>build-your-own-x</h1>
-        <p class="subtitle">商业可行性评分: <span class="score">68.6/100</span></p>
-        <div class="stats">
-            <div class="stat">
-                <span class="number">470,518</span>
-                <span class="label">GitHub Stars</span>
+        <div class="container">
+            <div class="hero-content">
+                <h1>规划你的开发者成长路径</h1>
+                <p class="hero-subtitle">
+                    交互式学习路径可视化 · 智能资源推荐 · 实时进度追踪
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large">免费开始</button>
+                    <button class="btn btn-secondary btn-large">了解更多</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">100,000+</div>
+                        <div class="stat-label">开发者使用</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">4.9/5</div>
+                        <div class="stat-label">用户评分</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">满意度</div>
+                    </div>
+                </div>
             </div>
-            <div class="stat">
-                <span class="number">44,104</span>
-                <span class="label">Forks</span>
-            </div>
-            <div class="stat">
-                <span class="number">Markdown</span>
-                <span class="label">技术栈</span>
-            </div>
-        </div>
-        <div class="cta">
-            <a href="https://github.com/codecrafters-io/build-your-own-x" class="btn btn-primary" target="_blank">查看 GitHub</a>
-            <a href="#contact" class="btn btn-secondary">开始合作</a>
-        </div>
-    </section>
-
-    <section id="features" class="section">
-        <h2>为什么选择 build-your-own-x？</h2>
-        <div class="features-grid">
-            <div class="feature">
-                <h3>🌟 高社区认可</h3>
-                <p>470,518 Stars 证明了项目的受欢迎程度和技术实力</p>
-            </div>
-            <div class="feature">
-                <h3>🔧 成熟的技术栈</h3>
-                <p>基于 Markdown 构建，经过大量实践验证</p>
-            </div>
-            <div class="feature">
-                <h3>📈 高商业潜力</h3>
-                <p>商业可行性评分 68.6/100，具备商业化前景</p>
-            </div>
-            <div class="feature">
-                <h3>🤝 活跃的社区</h3>
-                <p>44,104 Forks 意味着广泛的参与和贡献</p>
+            <div class="hero-image">
+                <div class="placeholder-image">📊 学习路径预览</div>
             </div>
         </div>
     </section>
 
-    <section id="business" class="section alt">
-        <h2>商业机会分析</h2>
-        <div class="business-content">
-            <h3>推荐商业模式</h3>
-            <p><strong>免费开源 + 企业服务</strong></p>
-            <ul>
-                <li>免费开源版本吸引开发者</li>
-                <li>企业版提供 SLA 和专属支持</li>
-                <li>托管服务降低使用门槛</li>
-                <li>咨询和培训创造额外收入</li>
-            </ul>
+    <!-- 核心功能 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <p class="section-subtitle">帮助你高效学习，快速成长</p>
+            
+            <div class="features-grid">
 
-            <h3>目标市场</h3>
-            <ul>
-                <li><strong>个人开发者:</strong> 免费使用，转化为付费用户</li>
-                <li><strong>小型团队:</strong> 专业版订阅 ($49/月)</li>
-                <li><strong>大型企业:</strong> 企业版 ($999/月起) + 定制</li>
-            </ul>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">交互式学习路径</h3>
+                    <p class="feature-description">
+                        通过智能化工具，帮助你更好地交互式学习路径，提高学习效率。
+                    </p>
+                </div>
 
-            <h3>收入预期</h3>
-            <p>基于 470,518 Stars 的社区基础，预计首年可达 $100K+ ARR</p>
-        </div>
-    </section>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title">资源推荐系统</h3>
+                    <p class="feature-description">
+                        通过智能化工具，帮助你更好地资源推荐系统，提高学习效率。
+                    </p>
+                </div>
 
-    <section id="pricing" class="section">
-        <h2>定价方案</h2>
-        <div class="pricing-grid">
-            <div class="pricing-card">
-                <h3>免费版</h3>
-                <div class="price">$0</div>
-                <ul>
-                    <li>✅ 完整功能</li>
-                    <li>✅ 社区支持</li>
-                    <li>✅ 开源代码</li>
-                </ul>
-                <a href="https://github.com/codecrafters-io/build-your-own-x" class="btn" target="_blank">开始使用</a>
-            </div>
-            <div class="pricing-card featured">
-                <div class="badge">推荐</div>
-                <h3>专业版</h3>
-                <div class="price">$49<span>/月</span></div>
-                <ul>
-                    <li>✅ 免费版所有功能</li>
-                    <li>✅ 优先邮件支持</li>
-                    <li>✅ 高级功能访问</li>
-                    <li>✅ 商业使用许可</li>
-                </ul>
-                <a href="#contact" class="btn btn-primary">开始订阅</a>
-            </div>
-            <div class="pricing-card">
-                <h3>企业版</h3>
-                <div class="price">$999<span>/月起</span></div>
-                <ul>
-                    <li>✅ 专业版所有功能</li>
-                    <li>✅ 专属支持团队</li>
-                    <li>✅ 99.9% SLA</li>
-                    <li>✅ 定制功能开发</li>
-                    <li>✅ 源码访问</li>
-                </ul>
-                <a href="#contact" class="btn btn-primary">联系销售</a>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">进度追踪</h3>
+                    <p class="feature-description">
+                        通过智能化工具，帮助你更好地进度追踪，提高学习效率。
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section alt">
-        <h2>开始合作</h2>
-        <div class="contact-form">
-            <form>
-                <input type="text" placeholder="您的姓名" required>
-                <input type="email" placeholder="邮箱地址" required>
-                <select required>
-                    <option value="">选择感兴趣的服务</option>
-                    <option value="pro">专业版订阅</option>
-                    <option value="enterprise">企业版咨询</option>
-                    <option value="custom">定制开发</option>
-                    <option value="other">其他</option>
-                </select>
-                <textarea placeholder="描述您的需求..." rows="4"></textarea>
-                <button type="submit" class="btn btn-primary">提交咨询</button>
-            </form>
+    <!-- 定价方案 -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">选择适合你的方案</h2>
+            <p class="section-subtitle">灵活定价，按需选择</p>
+            
+            <div class="pricing-grid">
+                <!-- 免费版 -->
+                <div class="pricing-card pricing-free">
+                    <div class="pricing-header">
+                        <h3>免费版</h3>
+                        <div class="pricing-price">免费</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 交互式学习路径</li>
+                        <li>✓ 基础资源推荐</li>
+                        <li>✓ 社区支持</li>
+                        <li class="disabled">✗ 高级分析报告</li>
+                        <li class="disabled">✗ 团队协作功能</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">免费开始</button>
+                </div>
+
+                <!-- Pro 版 -->
+                <div class="pricing-card pricing-pro featured">
+                    <div class="pricing-badge">推荐</div>
+                    <div class="pricing-header">
+                        <h3>Pro 版</h3>
+                        <div class="pricing-price">¥9.9/月</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 所有免费版功能</li>
+                        <li>✓ 实时进度追踪</li>
+                        <li>✓ 学习分析报告</li>
+                        <li>✓ 个性化推荐</li>
+                        <li>✓ 优先支持</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">升级到 Pro</button>
+                </div>
+
+                <!-- Team 版 -->
+                <div class="pricing-card pricing-team">
+                    <div class="pricing-header">
+                        <h3>Team 版</h3>
+                        <div class="pricing-price">¥99/用户/月</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ 所有 Pro 版功能</li>
+                        <li>✓ 团队协作</li>
+                        <li>✓ 学习面板</li>
+                        <li>✓ 企业级支持</li>
+                        <li>✓ 自定义报告</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">联系销售</button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 build-your-own-x 商业化项目. 基于 GitHub 开源项目 build-your-own-x.</p>
-        <p><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank">查看 GitHub 仓库</a></p>
+    <!-- CTA 区域 -->
+    <section class="cta">
+        <div class="container">
+            <h2>准备好开始了吗？</h2>
+            <p>加入 100,000+ 开发者，开始规划你的成长路径</p>
+            <button class="btn btn-primary btn-large">立即注册</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">关于我们</a>
+                <a href="#">功能介绍</a>
+                <a href="#">定价</a>
+                <a href="#">支持</a>
+                <a href="#">隐私政策</a>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Build Your Own X. All rights reserved.
+            </div>
+        </div>
     </footer>
 </body>
 </html>

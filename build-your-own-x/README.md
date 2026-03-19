@@ -1,37 +1,123 @@
-# build-your-own-x - Landing Page
+# Build Your Own X - Landing Page
 
-这是为 [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) 生成的商业营销页面。
-
-## 项目信息
-
-- **GitHub Stars:** 470,518
-- **Forks:** 44,104
-- **技术栈:** Markdown
-- **商业可行性评分:** 68.6/100
-
-## 页面功能
-
-- ✅ 响应式设计（移动端友好）
-- ✅ Hero 展示区域（项目统计）
-- ✅ 功能特点展示
-- ✅ 商业分析说明
-- ✅ 定价方案（免费/专业/企业）
-- ✅ 联系表单
-
-## 使用方法
-
-1. 将 `index.html` 和 `styles.css` 上传到 Web 服务器
-2. 或使用 GitHub Pages 直接托管
-3. 根据需要修改联系表单的后端处理
-
-## 商业化建议
-
-本项目基于开源项目 build-your-own-x，推荐采用以下商业模式：
-
-1. **免费开源版** - 保持开源，建立社区
-2. **专业版订阅** - $49/月，提供优先支持
-3. **企业版服务** - $999/月起，SLA + 定制
+> 生成时间：2026-03-19 22:03:15
+> 项目类型：Landing Page（营销落地页）
 
 ---
 
-生成时间: 2026-03-04 22:04:12
+## 📄 文件结构
+
+```
+build-your-own-x/
+├── index.html          # 主页面
+├── assets/
+│   ├── css/
+│   │   └── style.css  # 样式文件
+│   └── images/         # 图片资源（占位符）
+└── README.md          # 本文件
+```
+
+---
+
+## 🚀 本地预览
+
+### 方法 1：直接打开
+在浏览器中打开 `index.html` 文件
+
+### 方法 2：使用 Python 简易服务器
+```bash
+cd build-your-own-x
+python3 -m http.server 8000
+```
+然后访问：http://localhost:8000
+
+### 方法 3：使用 VS Code Live Server
+安装 Live Server 插件，右键 `index.html` 选择 "Open with Live Server"
+
+---
+
+## 📤 部署到 GitHub Pages
+
+### 1. 创建 GitHub 仓库
+```bash
+git init
+git add .
+git commit -m "Initial Landing Page"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/zoe-landing-pages.git
+git push -u origin main
+```
+
+### 2. 配置 GitHub Pages
+1. 进入仓库设置（Settings）
+2. 选择 "Pages"
+3. Source 选择 "Deploy from a branch"
+4. Branch 选择 `main`，文件夹选择 `/root`（如果项目在子目录）
+5. 点击 Save
+
+### 3. 访问 Landing Page
+等待 1-2 分钟后，访问：
+```
+https://YOUR_USERNAME.github.io/zoe-landing-pages/build-your-own-x/
+```
+
+---
+
+## 📤 部署到 Vercel（推荐）
+
+### 1. 安装 Vercel CLI
+```bash
+npm i -g vercel
+```
+
+### 2. 部署
+```bash
+cd build-your-own-x
+vercel
+```
+
+### 3. 访问 Landing Page
+Vercel 会提供一个 `.vercel.app` 域名
+
+---
+
+## 🎨 自定义样式
+
+### 修改颜色
+编辑 `assets/css/style.css`，搜索以下变量并修改：
+- 主色：`#4F46E5`
+- 渐变色：`#667eea` 和 `#764ba2`
+
+### 修改内容
+编辑 `index.html`，修改以下部分：
+- Hero 区域的标题和副标题
+- 功能卡片的内容
+- 定价方案的价格和功能
+- CTA 按钮的文字
+
+---
+
+## 💡 商业信息
+
+### 商业模式
+- **推荐模式：** Freemium
+- **定价策略：** 免费+增值
+
+### MVP 功能
+
+### 技术栈
+- **前端：** HTML5 + CSS3 + JavaScript
+- **样式：** 自定义 CSS
+- **响应式：** 移动端友好设计
+
+---
+
+## 📞 联系方式
+
+- Email：support@example.com
+- Website：https://example.com
+
+---
+
+*本页面由 Zoe Agent System 自动生成*
+*生成时间：2026-03-19T22:03:15.964496*

@@ -1,4 +1,4 @@
-# Claude Hud - Landing Page
+# Workerd - Landing Page
 
 > 生成时间：2026-03-19 22:03:15
 > 项目类型：Landing Page（营销落地页）
@@ -8,7 +8,7 @@
 ## 📄 文件结构
 
 ```
-claude-hud/
+workerd/
 ├── index.html          # 主页面
 ├── assets/
 │   ├── css/
@@ -26,7 +26,7 @@ claude-hud/
 
 ### 方法 2：使用 Python 简易服务器
 ```bash
-cd claude-hud
+cd workerd
 python3 -m http.server 8000
 ```
 然后访问：http://localhost:8000
@@ -58,7 +58,7 @@ git push -u origin main
 ### 3. 访问 Landing Page
 等待 1-2 分钟后，访问：
 ```
-https://YOUR_USERNAME.github.io/zoe-landing-pages/claude-hud/
+https://YOUR_USERNAME.github.io/zoe-landing-pages/workerd/
 ```
 
 ---
@@ -72,7 +72,7 @@ npm i -g vercel
 
 ### 2. 部署
 ```bash
-cd claude-hud
+cd workerd
 vercel
 ```
 
@@ -120,4 +120,4 @@ Vercel 会提供一个 `.vercel.app` 域名
 ---
 
 *本页面由 Zoe Agent System 自动生成*
-*生成时间：2026-03-19T22:03:15.970277*
+*生成时间：2026-03-19T22:03:15.963028*
